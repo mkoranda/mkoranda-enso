@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CalculatorTest {
 
     @Test
-    public void findNoMultiples() {
+    public void totalAllMultiples() {
         assertEquals(Calculator.totalAllMultiples(0), 0);
         assertEquals(Calculator.totalAllMultiples(10), 23);
         assertEquals(Calculator.totalAllMultiples(20), 78);
